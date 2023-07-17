@@ -88,7 +88,7 @@ import {
   
     {
       id: 6,
-      title: 'Address : ',
+      title: 'City : ',
       description: 'Pasto',
     },
   
@@ -104,11 +104,9 @@ import {
       description: 'ibarravictor334@gmail.com',
     },
   
-   
-  
-    {
+   {
       id: 10,
-      title: 'Langages : ',
+      title: 'Languages : ',
       description: 'Spanish, English',
     },
   ];
@@ -116,7 +114,7 @@ import {
   export const stats = [
     {
       id: 1,
-      no: '2+',
+      no: '1+',
       title: 'Years of <br /> Experience',
     },
   
@@ -134,8 +132,8 @@ import {
   
     {
       id: 4,
-      no: '53+',
-      title: ' Awards <br /> Won',
+      no: '90+',
+      title: ' Learning <br /> Ability',
     },
   ];
   
@@ -199,13 +197,13 @@ import {
     {
       id: 1,
       title: 'Html',
-      percentage: '25',
+      percentage: '90',
     },
   
     {
       id: 2,
       title: 'Javascript',
-      percentage: '89',
+      percentage: '80',
     },
   
     {
@@ -216,31 +214,31 @@ import {
   
     {
       id: 4,
-      title: 'Php',
+      title: 'React js',
       percentage: '66',
     },
   
     {
       id: 5,
-      title: 'Wordpress',
-      percentage: '95',
+      title: 'Node js',
+      percentage: '75',
     },
   
     {
       id: 6,
-      title: 'Jquery',
+      title: 'Git',
       percentage: '50',
     },
   
     {
       id: 7,
-      title: 'Angular',
+      title: 'Git Hub',
       percentage: '65',
     },
   
     {
       id: 8,
-      title: 'React',
+      title: 'Boostrap',
       percentage: '45',
     },
   ];
