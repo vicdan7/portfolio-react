@@ -142,55 +142,48 @@ import {
       id: 1,
       category: 'experience',
       icon: <FaBriefcase />,
-      year: '2018 - PRESENT',
-      title: 'Web Developer <span> Envato </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+      year: '2018 - 2023',
+      title: 'Owner and administrator of a sport complex for indoor soccer <span> Balon d Oro </span>',
+      desc: 'Attend and direct, general maintenance, and supplier management. Manage accounting records, income, expenses and operational cost. Assets and liabilities.  Monthly report delivery to partners, total expenses and total earnings.',
     },
   
     {
       id: 2,
       category: 'experience',
       icon: <FaBriefcase />,
-      year: '2013 - 2018',
-      title: 'UI/UX Designer <span> Themeforest </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+      year: '2013 - 2014',
+      title: 'Chief culinary creation <span> Camp Waldemar, USA </span>',
+      desc: 'I was in charge of creating culinary creations for various events and celebrations',
     },
   
     {
       id: 3,
       category: 'experience',
       icon: <FaBriefcase />,
-      year: '2005 - 2013',
-      title: 'Consultant <span> Videohive </span>',
-      desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+      year: '2012 - 2013',
+      title: 'Head Waiter <span> Camp Wildwood, USA </span>',
+      desc: 'I was in charge of organizing the dining areas and social lounges.',
     },
   
     {
       id: 4,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2015',
-      title: 'Engineering Degree <span> Oxford University </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+      year: '2014',
+      title: 'Finance and International Relations. <span> San Martin University </span>',
+      desc: 'Proficient professional in understanding current global financial and diplomatic dynamics.',
     },
   
     {
       id: 5,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2012',
-      title: 'Master Degree <span> KIEV University </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+      year: '2023',
+      title: 'Full Stack Web Development and Computer Science <span> Academlo </span>',
+      desc: 'Efficient programmer proficient in understanding current and in-demand technologies to be an effective and committed full-stack developer.',
     },
   
-    {
-      id: 6,
-      category: 'education',
-      icon: <FaGraduationCap />,
-      year: '2009',
-      title: 'Bachelor Degree <span> Tunis High School </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
-    },
+
   ];
   
   export const skills = [
@@ -247,27 +240,27 @@ import {
     {
       id: 1,
       img: Work1,
-      title: 'Photo Editing',
+      title: 'Pokedex',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Photo',
+          desc: 'API',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Myself',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'React js',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://pokedex-66a770.netlify.app/',
         },
       ],
     },
@@ -275,17 +268,17 @@ import {
     {
       id: 2,
       img: Work2,
-      title: 'Website Design',
+      title: 'Rick & Morty',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Website',
+          desc: 'API',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Myself',
         },
         {
           icon: <FaCode />,
@@ -295,7 +288,7 @@ import {
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://rickandmorty-7b6282.netlify.app/',
         },
       ],
     },
@@ -303,27 +296,27 @@ import {
     {
       id: 3,
       img: Work3,
-      title: 'Video Editing',
+      title: 'Ecommerce',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Video',
+          desc: 'Ecommerce Academlo',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Myself',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'Javascript vanilla',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://ecommercebb713.netlify.app/',
         },
       ],
     },
@@ -331,27 +324,27 @@ import {
     {
       id: 4,
       img: Work4,
-      title: 'Video Editing',
+      title: 'Weather App',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Video',
+          desc: 'API',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Myself',
         },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'React js',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://weatherapp-821a27.netlify.app/',
         },
       ],
     },
@@ -359,23 +352,27 @@ import {
     {
       id: 5,
       img: Work5,
-      title: 'Landing Page',
+      title: 'Users',
       details: [
         {
+          icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Website',
+          desc: 'CRUD',
         },
         {
+          icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Dribble',
+          desc: 'Myself',
         },
         {
+          icon: <FaCode />,
           title: 'Language : ',
-          desc: 'React JS, Node JS',
+          desc: 'React js',
         },
         {
+          icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'https://crud-d6c473.netlify.app/',
         },
       ],
     },
