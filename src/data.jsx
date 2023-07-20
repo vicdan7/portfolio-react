@@ -14,6 +14,7 @@ import {
   import Work3 from './assets/ecommerce.png';
   import Work4 from './assets/weather.png';
   import Work5 from './assets/users.png';
+  import Work6 from './assets/portfolio.png';
 
   
   import Theme1 from './assets/blue.png';
@@ -377,6 +378,35 @@ import {
         },
       ],
     },
+
+    {
+      id: 6,
+      img: Work6,
+      title: 'Portfolio',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Portfolio Vanilla',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Client : ',
+          desc: 'Myself',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Language : ',
+          desc: 'HTML, CSS, JS',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://portfolio-b7c1e1.netlify.app/',
+        },
+      ],
+    },
+  
   
    
   ];
