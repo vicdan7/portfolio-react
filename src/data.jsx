@@ -60,13 +60,13 @@ import {
     {
       id: 1,
       title: 'First Name : ',
-      description: 'Victor',
+      description: 'Victor Daniel',
     },
   
     {
       id: 2,
       title: 'Last Name : ',
-      description: 'Ibarra',
+      description: 'Ibarra Bolaños',
     },
   
     {
