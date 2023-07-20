@@ -1,0 +1,35 @@
+@media screen and (max-width: 1400px) {
+    .container{
+        max-width: calc(100% - 180px);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .grid{
+        gap: 20px;
+    }
+    .home__data{
+        padding-right: 40px;
+    }
+    .home__title{
+        font-size: var(--big-font-size);
+    }
+    .home__description{
+        font-size: var(--small-font-size);
+    }
+    .stats__title{
+        padding-left: 35px;
+    }
+    .stats__title::before{
+        width: 22px;
+    }
+    .skills__container{
+        row-gap: 32px;
+    }
+    .progress__circle{
+        width: 100px;
+        height: 100px;
+    }
+    .skills__title{
+        margin-top: 20px;
+    }
+}

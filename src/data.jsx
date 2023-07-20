@@ -24,6 +24,7 @@ import {
   import Theme6 from './assets/purple.png';
   import Theme7 from './assets/red.png';
   import Theme8 from './assets/yellow.png';
+  import Theme9 from './assets/goldenrod.png';
   
   export const links = [
     {
@@ -384,49 +385,63 @@ import {
     {
       id: 1,
       img: Theme1,
-      color: 'hsl(252, 35%, 51%)',
+      color: 'hsl(225, 73%, 57%)',
     },
   
     {
       id: 2,
       img: Theme2,
-      color: 'hsl(4, 93%, 54%)',
+      color: 'hsl(271, 76%, 53%)',
     },
   
     {
       id: 3,
       img: Theme3,
-      color: 'hsl(271, 76%, 53%)',
+      color: 'hsl(80, 61%, 50%)',
+      
     },
   
     {
       id: 4,
       img: Theme4,
-      color: 'hsl(225, 73%, 57%)',
+      color: 'hsl(339, 81%, 66%)',
+      
     },
   
     {
       id: 5,
       img: Theme5,
-      color: 'hsl(43, 74%, 49%)',
+      color: 'hsl(19, 96%, 52%)',
+      
     },
   
     {
       id: 6,
       img: Theme6,
-      color: 'hsl(339, 81%, 66%)',
+      color: 'hsl(252, 35%, 51%)',
+      
     },
   
     {
       id: 7,
       img: Theme7,
-      color: 'hsl(80, 61%, 50%)',
+      color: 'hsl(4, 93%, 54%)',
+      
     },
   
     {
       id: 8,
       img: Theme8,
+      color: 'hsl(43, 74%, 49%)',
+     
+     
+    },
+
+    {
+      id: 9,
+      img: Theme9,
       color: 'hsl(19, 96%, 52%)',
+      
     },
   
   
