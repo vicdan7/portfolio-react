@@ -47,19 +47,19 @@ const Contact = () => {
          </div>
 
          <div className="contact__socials">
-           <a href="https://facebook.com/" className="contact__social-link">
+           <a href="https://facebook.com/" target='__blank' className="contact__social-link">
               <FaFacebookF />
            </a>
 
-           <a href="https://github.com/vicdan7" className="contact__social-link">
+           <a href="https://github.com/vicdan7" target='__blank' className="contact__social-link">
               <FaGithub />
            </a>
 
-           <a href="https://instagram.com" className="contact__social-link">
+           <a href="https://instagram.com" target='__blank' className="contact__social-link">
               <FaInstagram />
            </a>
 
-           <a href="https://www.linkedin.com/in/vicibarra/" className="contact__social-link">
+           <a href="https://www.linkedin.com/in/vicibarra/" target='__blank' className="contact__social-link">
               <FaLinkedin />
            </a>
          </div>

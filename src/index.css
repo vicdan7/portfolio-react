@@ -184,10 +184,10 @@
         height: 40px;
     }
     .style__switcher-toggler{
-        top: 15%;
+        top: -20%;
     }
     .theme__toggler{
-        bottom: 15%;
+        bottom: 44%;
     }
     .style__switcher-close{
         top: 5%;
@@ -196,8 +196,7 @@
 }
 
 @media screen and (max-width: 450px) {
-   
-    .home__content{
+   .home__content{
         margin-block: auto;
         text-align: left;
     }
