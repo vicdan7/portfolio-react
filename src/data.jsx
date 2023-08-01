@@ -122,19 +122,19 @@ import {
   
     {
       id: 2,
-      no: '97+',
+      no: '10+',
       title: 'Completed <br /> Projects',
     },
   
     {
       id: 3,
-      no: '81+',
+      no: '2+',
       title: 'Happy <br /> Customers',
     },
   
     {
       id: 4,
-      no: '90+',
+      no: '90%',
       title: ' Learning <br /> Ability',
     },
   ];
@@ -171,19 +171,22 @@ import {
       id: 4,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2014',
-      title: 'Finance and International Relations. <span> San Martin University </span>',
-      desc: 'Proficient professional in understanding current global financial and diplomatic dynamics.',
+      year: '2023',
+      title: 'Full Stack Web Development and Computer Science <span> Academlo </span>',
+      desc: 'Efficient programmer proficient in understanding current and in-demand technologies to be an effective and committed full-stack developer.',
     },
   
     {
       id: 5,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2023',
-      title: 'Full Stack Web Development and Computer Science <span> Academlo </span>',
-      desc: 'Efficient programmer proficient in understanding current and in-demand technologies to be an effective and committed full-stack developer.',
+      year: '2014',
+      title: 'Finance and International Relations. <span> San Martin University </span>',
+      desc: 'Proficient professional in understanding current global financial and diplomatic dynamics.',
     },
+
+    
+  
   
 
   ];
@@ -243,16 +246,17 @@ import {
       id: 1,
       img: Work1,
       title: 'Pokedex',
+      titletwo: 'More Info',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'API',
+          desc: 'API: A different user experience was implemented, including navigation routes within the app, user identification, statemanagement and protected routes',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Myself',
+          desc: 'Academlo',
         },
         {
           icon: <FaCode />,
@@ -271,16 +275,17 @@ import {
       id: 2,
       img: Work2,
       title: 'Rick & Morty',
+      titletwo: 'More Info',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'API',
+          desc: 'API: We handle list and keys, controlled inputs, error handling and pagination.',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Myself',
+          desc: 'Academlo',
         },
         {
           icon: <FaCode />,
@@ -299,16 +304,17 @@ import {
       id: 3,
       img: Work3,
       title: 'Ecommerce',
+      titletwo: 'More Info',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Ecommerce Academlo',
+          desc: 'Ecommerce Academlo: The app was developed consuming an Academlo API, using Jason, Async and Await functions.',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Myself',
+          desc: 'Academlo',
         },
         {
           icon: <FaCode />,
@@ -327,16 +333,17 @@ import {
       id: 4,
       img: Work4,
       title: 'Weather App',
+      titletwo: 'More Info',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'API',
+          desc: 'API: This application allows users to get real-time weather information for any location they choose, by dynamically consuming an API using the axios library. ',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Myself',
+          desc: 'Academlo',
         },
         {
           icon: <FaCode />,
@@ -355,16 +362,17 @@ import {
       id: 5,
       img: Work5,
       title: 'Users',
+      titletwo: 'More Info',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'CRUD',
+          title: 'Project:  ',
+          desc: 'CRUD: Interaction with a local users API; Uses of HTTP methods and props practices.',
         },
         {
           icon: <FiUser />,
           title: 'Client : ',
-          desc: 'Myself',
+          desc: 'Academlo',
         },
         {
           icon: <FaCode />,
@@ -383,6 +391,7 @@ import {
       id: 6,
       img: Work6,
       title: 'Portfolio',
+      titletwo: 'More Info',
       details: [
         {
           icon: <FiFileText />,

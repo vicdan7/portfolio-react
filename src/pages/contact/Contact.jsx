@@ -6,6 +6,7 @@ import{
   FaInstagram,
   FaGithub,
   FaLinkedin,
+  FaWhatsapp,
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi';
@@ -42,12 +43,13 @@ const Contact = () => {
               <div>
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">+57 3013532321</h4>
+                <FaWhatsapp />
               </div>
            </div>
          </div>
 
          <div className="contact__socials">
-           <a href="https://facebook.com/" target='__blank' className="contact__social-link">
+           <a href="https://www.facebook.com/victor.ibarra.5496683?mibextid=9R9pXO" target='__blank' className="contact__social-link">
               <FaFacebookF />
            </a>
 
@@ -55,7 +57,7 @@ const Contact = () => {
               <FaGithub />
            </a>
 
-           <a href="https://instagram.com" target='__blank' className="contact__social-link">
+           <a href="https://instagram.com/victoribarrab?igshid=MmU2YjMzNjRlOQ==" target='__blank' className="contact__social-link">
               <FaInstagram />
            </a>
 
