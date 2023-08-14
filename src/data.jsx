@@ -15,6 +15,8 @@ import {
   import Work4 from './assets/weather.png';
   import Work5 from './assets/users.png';
   import Work6 from './assets/portfolio.png';
+  import Work7 from './assets/users-backend.png';
+  import Work8 from './assets/ecommerce-backend.png';
 
   
   import Theme1 from './assets/blue.png';
@@ -412,6 +414,64 @@ import {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://portfolio-b7c1e1.netlify.app/',
+        },
+      ],
+    },
+
+    {
+      id: 7,
+      img: Work7,
+      title: 'Users Backend',
+      titletwo: 'More Info',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Backend project users',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Client : ',
+          desc: 'Academlo',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Language : ',
+          desc: 'Javascript, Node.js, PostgresSQL, Postman',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://github.com/vicdan7/user-crud-backend.git',
+        },
+      ],
+    },
+
+    {
+      id: 8,
+      img: Work8,
+      title: 'Ecommerce Backend',
+      titletwo: 'More Info',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Project : ',
+          desc: 'Backend project ecommerce',
+        },
+        {
+          icon: <FiUser />,
+          title: 'Client : ',
+          desc: 'Academlo',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Language : ',
+          desc: 'Javascript, Node.js, PostgresSQL, Postman',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://github.com/vicdan7/ecommerce-back.git',
         },
       ],
     },
